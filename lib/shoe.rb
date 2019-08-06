@@ -12,12 +12,12 @@ class Shoe
     @brand
   end
   
-  def page_count=(page_count)
-    @page_count = page_count
+  def color=(color)
+    @color = color
   end
   
-  def page_count
-    @page_count
+  def color
+    @color
   end
   
 end
