@@ -36,12 +36,12 @@ class Shoe
     @material
   end
   
-  def page_count=(page_count)
-    @page_count = page_count
+  def condition=(condition)
+    @condition = condition
   end
   
-  def page_count
-    @page_count
+  def condition
+    @condition
   end
   
 end
