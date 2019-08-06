@@ -20,6 +20,30 @@ class Shoe
     @color
   end
   
+  def size=(size)
+    @size = size
+  end
+  
+  def size
+    @size
+  end
+  
+  def material=(material)
+    @material = material
+  end
+  
+  def material
+    @material
+  end
+  
+  def page_count=(page_count)
+    @page_count = page_count
+  end
+  
+  def page_count
+    @page_count
+  end
+  
 end
 
 
